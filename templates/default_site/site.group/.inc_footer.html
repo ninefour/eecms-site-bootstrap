@@ -1,0 +1,12 @@
+<footer>
+
+	<p>&copy; Copyright {current_time format="%Y"}</p>			
+			
+</footer>
+	
+{if member_group=="1"}
+<ul class="debug">
+	<li>Rendered in {elapsed_time} with {total_queries} queries</li>
+	<li>GZip: {gzip_mode}, Debug: {debug_mode}, App Version: {app_version}, App Build: {app_build}</li>
+</ul>
+{/if}
