@@ -1,5 +1,9 @@
-User-agent: *
+User-Agent: *
 Disallow: /admin/
-Disallow: /images/
+Disallow: /documentation/
 Disallow: /templates/
 Disallow: /themes/
+Disallow: /third_party/
+Disallow: /tmp/
+Disallow: /member/
+Sitemap: /site-map/google
